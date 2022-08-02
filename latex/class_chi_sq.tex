@@ -1,0 +1,59 @@
+\hypertarget{class_chi_sq}{}\doxysection{Chi\+Sq Class Reference}
+\label{class_chi_sq}\index{ChiSq@{ChiSq}}
+
+
+The \mbox{\hyperlink{class_chi_sq}{Chi\+Sq}} class, by sample and theoretical distribution, calculates the statistics of the chi-\/square test, the number of degrees of freedom, and the p-\/value.  
+
+
+
+
+{\ttfamily \#include $<$Chi\+Sq.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_chi_sq_aedf91495327ee88cd2e9b8d7dafcdac0}\label{class_chi_sq_aedf91495327ee88cd2e9b8d7dafcdac0}} 
+{\bfseries Chi\+Sq} (const \mbox{\hyperlink{class_sample}{Sample}} \&distr, const \mbox{\hyperlink{class_theor}{Theor}} \&theor)
+\item 
+\mbox{\Hypertarget{class_chi_sq_aa1491b23cd68380eb7992631baa59e30}\label{class_chi_sq_aa1491b23cd68380eb7992631baa59e30}} 
+void {\bfseries calc\+Emp\+Freq} (const \mbox{\hyperlink{class_sample}{Sample}} \&distr)
+\item 
+\mbox{\Hypertarget{class_chi_sq_af70886ca1a278c8c2cfb89c0743b9a65}\label{class_chi_sq_af70886ca1a278c8c2cfb89c0743b9a65}} 
+void {\bfseries calc\+Theor\+Freq} (const \mbox{\hyperlink{class_theor}{Theor}} \&theor)
+\item 
+\mbox{\Hypertarget{class_chi_sq_a81979567cd781a2926387a1bbaeeaca2}\label{class_chi_sq_a81979567cd781a2926387a1bbaeeaca2}} 
+void {\bfseries calc\+Stat} ()
+\item 
+\mbox{\Hypertarget{class_chi_sq_ab1c92955d36200c81b207a0de65e0b10}\label{class_chi_sq_ab1c92955d36200c81b207a0de65e0b10}} 
+void {\bfseries calc\+Pvalue} ()
+\item 
+\mbox{\Hypertarget{class_chi_sq_a5ffd18c263a774f6387ceabf2eeb0e20}\label{class_chi_sq_a5ffd18c263a774f6387ceabf2eeb0e20}} 
+void {\bfseries print\+Theor\+Freq} () const
+\item 
+\mbox{\Hypertarget{class_chi_sq_a114f93b0547c11ed08d3126cbae74a32}\label{class_chi_sq_a114f93b0547c11ed08d3126cbae74a32}} 
+void {\bfseries print\+Emp\+Freq} () const
+\item 
+\mbox{\Hypertarget{class_chi_sq_add682813aba0af35db01921ee39b04b5}\label{class_chi_sq_add682813aba0af35db01921ee39b04b5}} 
+void {\bfseries print\+Stat} () const
+\item 
+\mbox{\Hypertarget{class_chi_sq_a800574be28e4faa799c5949817c5f07c}\label{class_chi_sq_a800574be28e4faa799c5949817c5f07c}} 
+void {\bfseries print\+Pvalue} () const
+\item 
+\mbox{\Hypertarget{class_chi_sq_a3c55b9807c55dafe4bb0269637c56c4f}\label{class_chi_sq_a3c55b9807c55dafe4bb0269637c56c4f}} 
+int $\ast$ {\bfseries get\+Emp\+Freq} () const
+\item 
+\mbox{\Hypertarget{class_chi_sq_a41b71c449fe19bf1e482ed20e9bc0af8}\label{class_chi_sq_a41b71c449fe19bf1e482ed20e9bc0af8}} 
+double $\ast$ {\bfseries get\+Theor\+Freq} () const
+\item 
+\mbox{\Hypertarget{class_chi_sq_a8077f55b05a9981983f78565405ac0d6}\label{class_chi_sq_a8077f55b05a9981983f78565405ac0d6}} 
+double {\bfseries get\+Pvalue} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \mbox{\hyperlink{class_chi_sq}{Chi\+Sq}} class, by sample and theoretical distribution, calculates the statistics of the chi-\/square test, the number of degrees of freedom, and the p-\/value. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Chi\+Sq.\+h\item 
+Chi\+Sq.\+cpp\end{DoxyCompactItemize}

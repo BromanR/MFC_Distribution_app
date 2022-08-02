@@ -1,0 +1,36 @@
+\hypertarget{_chi_sq_8h_source}{}\doxysection{Chi\+Sq.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 }
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include "{}Sample.h"{}}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include "{}Theor.h"{}}}
+\DoxyCodeLine{6 }
+\DoxyCodeLine{12 }
+\DoxyCodeLine{13 \textcolor{keyword}{class }\mbox{\hyperlink{class_chi_sq}{ChiSq}} \{}
+\DoxyCodeLine{14 \textcolor{keyword}{private}:}
+\DoxyCodeLine{15     \textcolor{keywordtype}{double} p\_value = -\/1;}
+\DoxyCodeLine{16     \textcolor{keywordtype}{double} stat =-\/1;}
+\DoxyCodeLine{17     \textcolor{keywordtype}{int}* emp\_freq= \textcolor{keyword}{nullptr};}
+\DoxyCodeLine{18     \textcolor{keywordtype}{double}* theor\_freq = \textcolor{keyword}{nullptr};}
+\DoxyCodeLine{19     \textcolor{keywordtype}{int} df = -\/1;}
+\DoxyCodeLine{20     \textcolor{keywordtype}{int} sample\_size = -\/1;}
+\DoxyCodeLine{21     \textcolor{keywordtype}{int} theor\_size= -\/1;}
+\DoxyCodeLine{22 \textcolor{keyword}{public}:}
+\DoxyCodeLine{23     \mbox{\hyperlink{class_chi_sq}{ChiSq}}(\textcolor{keyword}{const} \mbox{\hyperlink{class_sample}{Sample}}\& distr, \textcolor{keyword}{const} \mbox{\hyperlink{class_theor}{Theor}}\& theor);}
+\DoxyCodeLine{24     \textcolor{keywordtype}{void} calcEmpFreq(\textcolor{keyword}{const} \mbox{\hyperlink{class_sample}{Sample}}\& distr);}
+\DoxyCodeLine{25     \textcolor{keywordtype}{void} calcTheorFreq(\textcolor{keyword}{const} \mbox{\hyperlink{class_theor}{Theor}}\& theor);}
+\DoxyCodeLine{26     \textcolor{keywordtype}{void} calcStat();}
+\DoxyCodeLine{27     \textcolor{keywordtype}{void} calcPvalue();}
+\DoxyCodeLine{28     \textcolor{keywordtype}{void} printTheorFreq()\textcolor{keyword}{ const }\{ printf(\textcolor{stringliteral}{"{}theor\_freq\(\backslash\)n"{}}); \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < theor\_size + 1; ++i) \{ printf(\textcolor{stringliteral}{"{}\%d \%f\(\backslash\)n"{}}, i, theor\_freq[i]); \} \}}
+\DoxyCodeLine{29     \textcolor{keywordtype}{void} printEmpFreq()\textcolor{keyword}{ const }\{ printf(\textcolor{stringliteral}{"{}emp\_freq\(\backslash\)n"{}}); \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < theor\_size + 1; ++i) \{ printf(\textcolor{stringliteral}{"{}\%d \%d\(\backslash\)n"{}}, i, emp\_freq[i]); \} \}}
+\DoxyCodeLine{30     \textcolor{keywordtype}{void} printStat()\textcolor{keyword}{ const }\{ printf(\textcolor{stringliteral}{"{}\(\backslash\)n\%f\(\backslash\)n"{}}, stat); \}}
+\DoxyCodeLine{31     \textcolor{keywordtype}{void} printPvalue()\textcolor{keyword}{ const }\{ printf(\textcolor{stringliteral}{"{}\(\backslash\)n\%f\(\backslash\)n"{}}, p\_value); \}}
+\DoxyCodeLine{32     \textcolor{keywordtype}{int}* getEmpFreq()\textcolor{keyword}{ const }\{ \textcolor{keywordflow}{return} emp\_freq; \}}
+\DoxyCodeLine{33     \textcolor{keywordtype}{double}* getTheorFreq()\textcolor{keyword}{ const }\{ \textcolor{keywordflow}{return} theor\_freq; \}}
+\DoxyCodeLine{34     \textcolor{keywordtype}{double} getPvalue()\textcolor{keyword}{ const }\{ \textcolor{keywordflow}{return} p\_value; \}}
+\DoxyCodeLine{35     \mbox{\hyperlink{class_chi_sq}{\string~ChiSq}}() \{ \textcolor{keyword}{delete}[] emp\_freq; \textcolor{keyword}{delete}[] theor\_freq; \}}
+\DoxyCodeLine{36 \};}
+
+\end{DoxyCode}

@@ -1,0 +1,70 @@
+﻿  pch.cpp
+  CFormatDlg.cpp
+  ChiSq.cpp
+  MainFrm.cpp
+  MFC_Distribution_app.cpp
+  MFC_Distribution_appDoc.cpp
+  MFC_Distribution_appView.cpp
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(143,51): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(142,43): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(148,103): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(148,79): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(148,56): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(148,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(149,54): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(149,30): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(157,44): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(156,45): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(155,51): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(161,113): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(161,84): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(161,61): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(161,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(162,59): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(162,30): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(186,39): warning C4838: conversion from 'int' to 'double' requires a narrowing conversion
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(186,57): warning C4838: conversion from 'int' to 'double' requires a narrowing conversion
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(187,18): warning C4838: conversion from 'int' to 'double' requires a narrowing conversion
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(187,40): warning C4838: conversion from 'int' to 'double' requires a narrowing conversion
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(189,41): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(189,25): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(191,36): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(193,19): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(192,28): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(195,53): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(195,29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(196,51): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(197,54): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(197,30): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(200,41): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(200,25): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(201,41): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(201,25): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(202,41): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(202,25): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(203,41): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(203,25): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(209,41): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(209,25): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(210,41): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(210,25): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(211,51): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(211,32): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(212,42): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(212,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(213,42): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(213,26): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(215,29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(217,54): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\MFC_Distribution_appView.cpp(217,30): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  PROBDIST.CPP
+C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\PROBDIST.CPP(154,8): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  R32M.CPP
+  Sample.cpp
+  Theor.cpp
+  TheorBinomial.cpp
+  TheorGeom.cpp
+  TheorNegativeBinomial.cpp
+  TheorPoisson.cpp
+  Generating Code...
+  MFC_Distribution_app.vcxproj -> C:\Users\romap\OneDrive\Рабочий стол\ООП\Distribution app\x64\Debug\MFC_Distribution_app.exe

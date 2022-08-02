@@ -1,0 +1,44 @@
+\hypertarget{_m_f_c___distribution__app_8h_source}{}\doxysection{MFC\+\_\+\+Distribution\+\_\+app.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{2 \textcolor{comment}{// MFC\_Distribution\_app.h : main header file for the MFC\_Distribution\_app application}}
+\DoxyCodeLine{3 \textcolor{comment}{//}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{5 }
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#ifndef \_\_AFXWIN\_H\_\_}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{    \#error "{}include 'pch.h' before including this file for PCH"{}}}
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{9 }
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#include "{}resource.h"{}}       \textcolor{comment}{// main symbols}}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 }
+\DoxyCodeLine{13 \textcolor{comment}{// CMFCDistributionappApp:}}
+\DoxyCodeLine{14 \textcolor{comment}{// See MFC\_Distribution\_app.cpp for the implementation of this class}}
+\DoxyCodeLine{15 \textcolor{comment}{//}}
+\DoxyCodeLine{16 }
+\DoxyCodeLine{17 \textcolor{keyword}{class }\mbox{\hyperlink{class_c_m_f_c_distributionapp_app}{CMFCDistributionappApp}} : \textcolor{keyword}{public} CWinAppEx}
+\DoxyCodeLine{18 \{}
+\DoxyCodeLine{19 \textcolor{keyword}{public}:}
+\DoxyCodeLine{20     \mbox{\hyperlink{class_c_m_f_c_distributionapp_app}{CMFCDistributionappApp}}() \textcolor{keyword}{noexcept};}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{22 }
+\DoxyCodeLine{23 \textcolor{comment}{// Overrides}}
+\DoxyCodeLine{24 \textcolor{keyword}{public}:}
+\DoxyCodeLine{25     \textcolor{keyword}{virtual} BOOL InitInstance();}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{27 \textcolor{comment}{// Implementation}}
+\DoxyCodeLine{28     UINT  m\_nAppLook;}
+\DoxyCodeLine{29     BOOL  m\_bHiColorIcons;}
+\DoxyCodeLine{30 }
+\DoxyCodeLine{31     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} PreLoadState();}
+\DoxyCodeLine{32     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} LoadCustomState();}
+\DoxyCodeLine{33     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} SaveCustomState();}
+\DoxyCodeLine{34 }
+\DoxyCodeLine{35     afx\_msg \textcolor{keywordtype}{void} OnAppAbout();}
+\DoxyCodeLine{36     DECLARE\_MESSAGE\_MAP()}
+\DoxyCodeLine{37 \};}
+\DoxyCodeLine{38 }
+\DoxyCodeLine{39 \textcolor{keyword}{extern} \mbox{\hyperlink{class_c_m_f_c_distributionapp_app}{CMFCDistributionappApp}} theApp;}
+
+\end{DoxyCode}

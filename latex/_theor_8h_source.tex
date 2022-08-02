@@ -1,0 +1,21 @@
+\hypertarget{_theor_8h_source}{}\doxysection{Theor.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{3 \textcolor{keyword}{const} \textcolor{keywordtype}{int} MAX\_SIZE = 100;}
+\DoxyCodeLine{7 \textcolor{keyword}{class }\mbox{\hyperlink{class_theor}{Theor}}}
+\DoxyCodeLine{8 \{}
+\DoxyCodeLine{9 \textcolor{keyword}{protected}:}
+\DoxyCodeLine{13     \textcolor{keywordtype}{double}* \mbox{\hyperlink{class_theor_afd943cb19b9b4ff71f51a8c1622f2259}{probs}}=\textcolor{keyword}{nullptr};}
+\DoxyCodeLine{17     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_theor_a254356320ecdc937159e74c3d9314e1f}{theor\_size}} = 0;}
+\DoxyCodeLine{18 \textcolor{keyword}{public}:}
+\DoxyCodeLine{19     \mbox{\hyperlink{class_theor}{\string~Theor}}()\{ \textcolor{keyword}{delete}[] \mbox{\hyperlink{class_theor_afd943cb19b9b4ff71f51a8c1622f2259}{probs}}; \}}
+\DoxyCodeLine{20     \textcolor{keywordtype}{void} print() \{ \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < MAX\_SIZE; ++i) \{ printf(\textcolor{stringliteral}{"{}\%f\(\backslash\)n"{}},\mbox{\hyperlink{class_theor_afd943cb19b9b4ff71f51a8c1622f2259}{probs}}[i]); \} \}}
+\DoxyCodeLine{21     \textcolor{keywordtype}{int} getTheorSize()\textcolor{keyword}{ const }\{ \textcolor{keywordflow}{return} \mbox{\hyperlink{class_theor_a254356320ecdc937159e74c3d9314e1f}{theor\_size}}; \}}
+\DoxyCodeLine{22     \textcolor{keywordtype}{double}* getProbs()\textcolor{keyword}{ const }\{ \textcolor{keywordflow}{return} \mbox{\hyperlink{class_theor_afd943cb19b9b4ff71f51a8c1622f2259}{probs}}; \}}
+\DoxyCodeLine{23     \textcolor{keywordtype}{double}\& operator[](\textcolor{keyword}{const} \textcolor{keywordtype}{int} index)\textcolor{keyword}{ const }\{ \textcolor{keywordflow}{return} \mbox{\hyperlink{class_theor_afd943cb19b9b4ff71f51a8c1622f2259}{probs}}[index]; \}}
+\DoxyCodeLine{24 \};}
+\DoxyCodeLine{25 }
+
+\end{DoxyCode}

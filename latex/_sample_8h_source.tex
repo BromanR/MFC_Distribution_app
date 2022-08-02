@@ -1,0 +1,26 @@
+\hypertarget{_sample_8h_source}{}\doxysection{Sample.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include "{}Theor.h"{}}}
+\DoxyCodeLine{4 }
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9 \textcolor{keyword}{class }\mbox{\hyperlink{class_sample}{Sample}} \{}
+\DoxyCodeLine{10 \textcolor{keyword}{protected}:}
+\DoxyCodeLine{14     \textcolor{keywordtype}{int}* \mbox{\hyperlink{class_sample_ac648de333c18c8b7cbcead3efb07470d}{sample}} = \textcolor{keyword}{nullptr};}
+\DoxyCodeLine{18     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_sample_ad47b03a6ab5f57b1be5c93231871913e}{sample\_size}} = 0;}
+\DoxyCodeLine{19 \textcolor{keyword}{public}:}
+\DoxyCodeLine{26     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_sample_a62fbf8bf2725285c9b871608da35a6b2}{generateSample}}(\mbox{\hyperlink{class_theor}{Theor}}* pTheor);}
+\DoxyCodeLine{27     \textcolor{keyword}{virtual} \mbox{\hyperlink{class_sample}{\string~Sample}}() \{}
+\DoxyCodeLine{28         \textcolor{keyword}{delete}[] \mbox{\hyperlink{class_sample_ac648de333c18c8b7cbcead3efb07470d}{sample}};}
+\DoxyCodeLine{29     \};}
+\DoxyCodeLine{30     \textcolor{keywordtype}{void} printSample() \{}
+\DoxyCodeLine{31         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < \mbox{\hyperlink{class_sample_ad47b03a6ab5f57b1be5c93231871913e}{sample\_size}}; ++i) \{ printf(\textcolor{stringliteral}{"{}\%d\(\backslash\)n"{}}, \mbox{\hyperlink{class_sample_ac648de333c18c8b7cbcead3efb07470d}{sample}}[i]); \}}
+\DoxyCodeLine{32     \}}
+\DoxyCodeLine{33     \textcolor{keywordtype}{int} getSampleSize()\textcolor{keyword}{ const }\{ \textcolor{keywordflow}{return} \mbox{\hyperlink{class_sample_ad47b03a6ab5f57b1be5c93231871913e}{sample\_size}}; \}}
+\DoxyCodeLine{34     \textcolor{keywordtype}{int}* getSample()\textcolor{keyword}{ const }\{ \textcolor{keywordflow}{return} \mbox{\hyperlink{class_sample_ac648de333c18c8b7cbcead3efb07470d}{sample}}; \}}
+\DoxyCodeLine{35     \textcolor{keywordtype}{int}\& operator[](\textcolor{keyword}{const} \textcolor{keywordtype}{int} index)\textcolor{keyword}{ const }\{ \textcolor{keywordflow}{return} \mbox{\hyperlink{class_sample_ac648de333c18c8b7cbcead3efb07470d}{sample}}[index]; \}}
+\DoxyCodeLine{36 \};}
+
+\end{DoxyCode}

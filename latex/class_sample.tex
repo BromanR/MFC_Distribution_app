@@ -1,0 +1,65 @@
+\hypertarget{class_sample}{}\doxysection{Sample Class Reference}
+\label{class_sample}\index{Sample@{Sample}}
+
+
+The abstract base class \mbox{\hyperlink{class_sample}{Sample}}  
+
+
+
+
+{\ttfamily \#include $<$Sample.\+h$>$}
+
+Inheritance diagram for Sample\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_sample}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_sample_a62fbf8bf2725285c9b871608da35a6b2}{generate\+Sample}} (\mbox{\hyperlink{class_theor}{Theor}} $\ast$p\+Theor)
+\begin{DoxyCompactList}\small\item\em Clear virtual function that takes as input a pointer to theoretical distribution. With theoretical probabilities the cumulative sum will calculate and then sample will be simulated \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_sample_a833ff14e1f8051a1b515aa8591f1e96c}\label{class_sample_a833ff14e1f8051a1b515aa8591f1e96c}} 
+void {\bfseries print\+Sample} ()
+\item 
+\mbox{\Hypertarget{class_sample_a628108c410401837fa588ba08d5651f2}\label{class_sample_a628108c410401837fa588ba08d5651f2}} 
+int {\bfseries get\+Sample\+Size} () const
+\item 
+\mbox{\Hypertarget{class_sample_a8d7abfc23b3addc2ca7dab53819342f9}\label{class_sample_a8d7abfc23b3addc2ca7dab53819342f9}} 
+int $\ast$ {\bfseries get\+Sample} () const
+\item 
+\mbox{\Hypertarget{class_sample_a17d07f3594eb5ec9116595e986c15db1}\label{class_sample_a17d07f3594eb5ec9116595e986c15db1}} 
+int \& {\bfseries operator\mbox{[}$\,$\mbox{]}} (const int index) const
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sample_ac648de333c18c8b7cbcead3efb07470d}\label{class_sample_ac648de333c18c8b7cbcead3efb07470d}} 
+int $\ast$ {\bfseries sample} = nullptr
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_sample}{Sample}} \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_sample_ad47b03a6ab5f57b1be5c93231871913e}\label{class_sample_ad47b03a6ab5f57b1be5c93231871913e}} 
+int {\bfseries sample\+\_\+size} = 0
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_sample}{Sample}} size \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The abstract base class \mbox{\hyperlink{class_sample}{Sample}} 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_sample_a62fbf8bf2725285c9b871608da35a6b2}\label{class_sample_a62fbf8bf2725285c9b871608da35a6b2}} 
+\index{Sample@{Sample}!generateSample@{generateSample}}
+\index{generateSample@{generateSample}!Sample@{Sample}}
+\doxysubsubsection{\texorpdfstring{generateSample()}{generateSample()}}
+{\footnotesize\ttfamily void Sample\+::generate\+Sample (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_theor}{Theor}} $\ast$}]{p\+Theor }\end{DoxyParamCaption})}
+
+
+
+Clear virtual function that takes as input a pointer to theoretical distribution. With theoretical probabilities the cumulative sum will calculate and then sample will be simulated 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Sample.\+h\item 
+Sample.\+cpp\end{DoxyCompactItemize}

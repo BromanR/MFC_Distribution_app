@@ -1,0 +1,55 @@
+\hypertarget{_main_frm_8h_source}{}\doxysection{Main\+Frm.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{2 \textcolor{comment}{// MainFrm.h : interface of the CMainFrame class}}
+\DoxyCodeLine{3 \textcolor{comment}{//}}
+\DoxyCodeLine{4 }
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{6 }
+\DoxyCodeLine{7 \textcolor{keyword}{class }\mbox{\hyperlink{class_c_main_frame}{CMainFrame}} : \textcolor{keyword}{public} CFrameWndEx}
+\DoxyCodeLine{8 \{}
+\DoxyCodeLine{9     }
+\DoxyCodeLine{10 \textcolor{keyword}{protected}: \textcolor{comment}{// create from serialization only}}
+\DoxyCodeLine{11     \mbox{\hyperlink{class_c_main_frame}{CMainFrame}}() \textcolor{keyword}{noexcept};}
+\DoxyCodeLine{12     DECLARE\_DYNCREATE(\mbox{\hyperlink{class_c_main_frame}{CMainFrame}})}
+\DoxyCodeLine{13 }
+\DoxyCodeLine{14 \textcolor{comment}{// Attributes}}
+\DoxyCodeLine{15 \textcolor{keyword}{public}:}
+\DoxyCodeLine{16 }
+\DoxyCodeLine{17 \textcolor{comment}{// Operations}}
+\DoxyCodeLine{18 \textcolor{keyword}{public}:}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20 \textcolor{comment}{// Overrides}}
+\DoxyCodeLine{21 \textcolor{keyword}{public}:}
+\DoxyCodeLine{22     \textcolor{keyword}{virtual} BOOL PreCreateWindow(CREATESTRUCT\& cs);}
+\DoxyCodeLine{23     \textcolor{keyword}{virtual} BOOL LoadFrame(UINT nIDResource, DWORD dwDefaultStyle = WS\_OVERLAPPEDWINDOW | FWS\_ADDTOTITLE, CWnd* pParentWnd = \textcolor{keyword}{nullptr}, CCreateContext* pContext = \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25 \textcolor{comment}{// Implementation}}
+\DoxyCodeLine{26 \textcolor{keyword}{public}:}
+\DoxyCodeLine{27     \textcolor{keyword}{virtual} \mbox{\hyperlink{class_c_main_frame}{\string~CMainFrame}}();}
+\DoxyCodeLine{28 \textcolor{preprocessor}{\#ifdef \_DEBUG}}
+\DoxyCodeLine{29     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} AssertValid() \textcolor{keyword}{const};}
+\DoxyCodeLine{30     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} Dump(CDumpContext\& dc) \textcolor{keyword}{const};}
+\DoxyCodeLine{31 \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33 \textcolor{keyword}{protected}:  \textcolor{comment}{// control bar embedded members}}
+\DoxyCodeLine{34     CMFCMenuBar       m\_wndMenuBar;}
+\DoxyCodeLine{35     CMFCToolBar       m\_wndToolBar;}
+\DoxyCodeLine{36     CMFCStatusBar     m\_wndStatusBar;}
+\DoxyCodeLine{37     CMFCToolBarImages m\_UserImages;}
+\DoxyCodeLine{38 }
+\DoxyCodeLine{39 \textcolor{comment}{// Generated message map functions}}
+\DoxyCodeLine{40 \textcolor{keyword}{protected}:}
+\DoxyCodeLine{41     afx\_msg \textcolor{keywordtype}{int} OnCreate(LPCREATESTRUCT lpCreateStruct);}
+\DoxyCodeLine{42     afx\_msg \textcolor{keywordtype}{void} OnViewCustomize();}
+\DoxyCodeLine{43     afx\_msg LRESULT OnToolbarCreateNew(WPARAM wp, LPARAM lp);}
+\DoxyCodeLine{44     afx\_msg \textcolor{keywordtype}{void} OnApplicationLook(UINT \textcolor{keywordtype}{id});}
+\DoxyCodeLine{45     afx\_msg \textcolor{keywordtype}{void} OnUpdateApplicationLook(CCmdUI* pCmdUI);}
+\DoxyCodeLine{46     DECLARE\_MESSAGE\_MAP()}
+\DoxyCodeLine{47 }
+\DoxyCodeLine{48 \};}
+\DoxyCodeLine{49 }
+\DoxyCodeLine{50 }
+
+\end{DoxyCode}

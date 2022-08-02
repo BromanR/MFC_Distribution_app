@@ -1,0 +1,58 @@
+\hypertarget{_m_f_c___distribution__app_view_8h_source}{}\doxysection{MFC\+\_\+\+Distribution\+\_\+app\+View.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{2 \textcolor{comment}{// MFC\_Distribution\_appView.h : interface of the CMFCDistributionappView class}}
+\DoxyCodeLine{3 \textcolor{comment}{//}}
+\DoxyCodeLine{4 }
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{6 }
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8 \textcolor{keyword}{class }\mbox{\hyperlink{class_c_m_f_c_distributionapp_view}{CMFCDistributionappView}} : \textcolor{keyword}{public} CView}
+\DoxyCodeLine{9 \{}
+\DoxyCodeLine{10 \textcolor{keyword}{protected}: \textcolor{comment}{// create from serialization only}}
+\DoxyCodeLine{11     \mbox{\hyperlink{class_c_m_f_c_distributionapp_view}{CMFCDistributionappView}}() \textcolor{keyword}{noexcept};}
+\DoxyCodeLine{12     DECLARE\_DYNCREATE(\mbox{\hyperlink{class_c_m_f_c_distributionapp_view}{CMFCDistributionappView}})}
+\DoxyCodeLine{13 }
+\DoxyCodeLine{14 \textcolor{comment}{// Attributes}}
+\DoxyCodeLine{15 \textcolor{keyword}{public}:}
+\DoxyCodeLine{16     \mbox{\hyperlink{class_c_m_f_c_distributionapp_doc}{CMFCDistributionappDoc}}* GetDocument() \textcolor{keyword}{const};}
+\DoxyCodeLine{17 }
+\DoxyCodeLine{18 \textcolor{comment}{// Operations}}
+\DoxyCodeLine{19 \textcolor{keyword}{public}:}
+\DoxyCodeLine{20 }
+\DoxyCodeLine{21 \textcolor{comment}{// Overrides}}
+\DoxyCodeLine{22 \textcolor{keyword}{public}:}
+\DoxyCodeLine{23     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} OnDraw(CDC* pDC);  \textcolor{comment}{// overridden to draw this view}}
+\DoxyCodeLine{24     \textcolor{keyword}{virtual} BOOL PreCreateWindow(CREATESTRUCT\& cs);}
+\DoxyCodeLine{25 \textcolor{keyword}{protected}:}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{27 \textcolor{comment}{// Implementation}}
+\DoxyCodeLine{28 \textcolor{keyword}{public}:}
+\DoxyCodeLine{29     \textcolor{keyword}{virtual} \mbox{\hyperlink{class_c_m_f_c_distributionapp_view}{\string~CMFCDistributionappView}}();}
+\DoxyCodeLine{30 \textcolor{preprocessor}{\#ifdef \_DEBUG}}
+\DoxyCodeLine{31     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} AssertValid() \textcolor{keyword}{const};}
+\DoxyCodeLine{32     \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} Dump(CDumpContext\& dc) \textcolor{keyword}{const};}
+\DoxyCodeLine{33 \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{34 }
+\DoxyCodeLine{35 \textcolor{keyword}{protected}:}
+\DoxyCodeLine{36 }
+\DoxyCodeLine{37 \textcolor{comment}{// Generated message map functions}}
+\DoxyCodeLine{38 \textcolor{keyword}{protected}:}
+\DoxyCodeLine{39     afx\_msg \textcolor{keywordtype}{void} OnFilePrintPreview();}
+\DoxyCodeLine{40     afx\_msg \textcolor{keywordtype}{void} OnRButtonUp(UINT nFlags, CPoint point);}
+\DoxyCodeLine{41     afx\_msg \textcolor{keywordtype}{void} OnContextMenu(CWnd* pWnd, CPoint point);}
+\DoxyCodeLine{42     DECLARE\_MESSAGE\_MAP()}
+\DoxyCodeLine{43 }
+\DoxyCodeLine{44 \textcolor{keyword}{public}:}
+\DoxyCodeLine{45     \textcolor{keywordtype}{void} PrintHist();}
+\DoxyCodeLine{46     \textcolor{keywordtype}{void} PrintPValue();}
+\DoxyCodeLine{47 \};}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{49 \textcolor{preprocessor}{\#ifndef \_DEBUG  }\textcolor{comment}{// debug version in MFC\_Distribution\_appView.cpp}}
+\DoxyCodeLine{50 \textcolor{keyword}{inline} \mbox{\hyperlink{class_c_m_f_c_distributionapp_doc}{CMFCDistributionappDoc}}* CMFCDistributionappView::GetDocument()\textcolor{keyword}{ const}}
+\DoxyCodeLine{51 \textcolor{keyword}{   }\{ \textcolor{keywordflow}{return} \textcolor{keyword}{reinterpret\_cast<}\mbox{\hyperlink{class_c_m_f_c_distributionapp_doc}{CMFCDistributionappDoc}}*\textcolor{keyword}{>}(m\_pDocument); \}}
+\DoxyCodeLine{52 \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{53 }
+
+\end{DoxyCode}
